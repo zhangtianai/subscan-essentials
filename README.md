@@ -49,9 +49,9 @@ make &&  ./cmd/subscan --conf configs install
 
 ```bash
 
-docker-composer build
+docker-compose build
 
-docker-composer up -d
+docker-compose up -d
 
 ```
 
