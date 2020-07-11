@@ -50,7 +50,7 @@ make &&  ./cmd/subscan --conf configs install
 ```bash
 
 docker-compose build
-
+docker network create app_net
 docker-compose up -d
 
 ```
